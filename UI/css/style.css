@@ -5,14 +5,17 @@ General
 body {
     text-align: center;
     margin: 0;
-    background: url(../imgs/bg.jpg) center center fixed;
+}
+
+#homepage {
+    background: url(../imgs/bg2.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 ul {
 	list-style-type: none;
-	padding: 0;
+	padding: 5px;
 }
 
 li {
@@ -21,24 +24,39 @@ li {
 }
 
 .section_top {
-	padding: 2em 0;
+    margin-top: -21px;
 }
+
+.wrap-content {
+	margin: 0 auto;
+	max-width: 680px;
+	width: 85%;
+}
+
 /*********
 Color
 ***********/
 .section_top {
-    background-color: #E0EBE8;
+    background-color: #2579A9;
 }
 
 a {
     text-decoration: none;
 }
-
+a:visited {
+    color: #FDB915;
+}
+#title-header {
+    color: rgb(255, 255, 255);
+}
+.text-white {
+    color: #ffffff;
+}
 /*********
 Typography
 ***********/
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: sans-serif;
 }
 
 h2 {
