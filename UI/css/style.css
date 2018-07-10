@@ -1,0 +1,46 @@
+/*********
+General
+***********/
+
+body {
+    text-align: center;
+    margin: 0;
+    background: url(../imgs/bg.jpg) center center fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	display: inline;
+	padding: 0 1em;
+}
+
+.section_top {
+	padding: 2em 0;
+}
+/*********
+Color
+***********/
+.section_top {
+    background-color: #E0EBE8;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*********
+Typography
+***********/
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+    font-size: 1.7em;
+}
