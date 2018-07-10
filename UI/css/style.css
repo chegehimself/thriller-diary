@@ -114,3 +114,16 @@ h2 {
 #marketing {
     font-size: 1.3em;
 }
+
+
+/******
+ media 
+*******/
+
+/* mobile responsivity fixes*/
+
+@media screen and (max-width: 720px){
+    #homepage {
+        background: url(../imgs/bg4.jpg) center center fixed !important;
+    }
+}
