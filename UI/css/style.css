@@ -8,7 +8,7 @@ body {
 }
 
 #homepage {
-    background: url(../imgs/bg2.jpg) center center fixed;
+    background: url(../imgs/bg3.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -20,17 +20,34 @@ ul {
 
 li {
 	display: inline;
-	padding: 0 1em;
+	padding: 0 2em;
 }
 
 .section_top {
-    margin-top: -21px;
+    padding: 1.2em 0;
 }
 
 .wrap-content {
 	margin: 0 auto;
 	max-width: 680px;
 	width: 85%;
+}
+
+#join-btn {
+    border: 0em;
+    padding: 1.3em;
+    font-size: 0.7em;
+}
+
+.section_footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* getting rid of all outlines*/
+* {
+    outline: none;
 }
 
 /*********
@@ -48,8 +65,8 @@ a:visited {
     color: #ffffff;
 }
 
-a:visited {
-    color: #ffffff;
+a:hover {
+    color: #717171;
 }
 
 #title-header {
@@ -68,6 +85,17 @@ a:visited {
     background: #FDB915;
 }
 
+.sign-up, .sign-in {
+    color:#ffffff;
+}
+
+#join-btn {
+    background: #1ABC9C;
+}
+
+.section_footer {
+    color: #C8C9CA;
+}
 /*********
 Typography
 ***********/
@@ -81,5 +109,8 @@ h2 {
 
 .sign-up, .sign-in {
     padding: 10px;
-    color:#ffffff;
+}
+
+#marketing {
+    font-size: 1.3em;
 }
