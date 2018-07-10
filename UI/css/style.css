@@ -43,15 +43,31 @@ Color
 a {
     text-decoration: none;
 }
+
 a:visited {
-    color: #FDB915;
+    color: #ffffff;
 }
+
+a:visited {
+    color: #ffffff;
+}
+
 #title-header {
     color: rgb(255, 255, 255);
 }
+
 .text-white {
     color: #ffffff;
 }
+
+.sign-up {
+    background: #1ABC9C;
+}
+
+.sign-in {
+    background: #FDB915;
+}
+
 /*********
 Typography
 ***********/
@@ -61,4 +77,9 @@ body {
 
 h2 {
     font-size: 1.7em;
+}
+
+.sign-up, .sign-in {
+    padding: 10px;
+    color:#ffffff;
 }
