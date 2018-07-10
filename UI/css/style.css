@@ -59,6 +59,7 @@ Color
 
 a {
     text-decoration: none;
+    color:#ffffff;
 }
 
 a:visited {
@@ -125,5 +126,7 @@ h2 {
 @media screen and (max-width: 720px){
     #homepage {
         background: url(../imgs/bg4.jpg) center center fixed !important;
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
     }
 }
