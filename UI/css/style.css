@@ -53,6 +53,14 @@ li {
     outline: none;
 }
 
+/* form */
+.group-form {
+    margin-top: 50px;
+}
+
+.form-input {
+    padding: 1em;
+}
 /*********
 Color
 ***********/
