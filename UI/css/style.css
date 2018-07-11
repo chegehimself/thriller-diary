@@ -20,7 +20,7 @@ ul {
 
 li {
 	display: inline;
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 .section_top {
@@ -38,9 +38,9 @@ li {
     padding: 1.3em;
     font-size: 0.7em;
 }
-/* #join-btn:hover {
-    background: #FDB915;
-} */
+#join-btn:hover {
+    background: #149b80;
+}
 
 .section_footer {
     position: relative;
@@ -88,7 +88,7 @@ li {
     border: 0em;
 }
 
-
+/* end of form */
 
 
 /*********
@@ -158,6 +158,12 @@ a:hover {
 .btn-toSign {
     background: #1ABC9C;;
     color: #ffffff;
+}
+.btn-toHome:hover {
+    background: #e2a109;
+}
+.btn-toSign:hover {
+    background: #149b80;
 }
 
 /*********
