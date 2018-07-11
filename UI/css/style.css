@@ -60,7 +60,7 @@ li {
 
 .form-input {
     padding: 1em;
-    width: 50%;
+    width: 80%;
     border: 1px solid #FDB915;
 }
 
@@ -74,9 +74,21 @@ li {
     border: 0em;
 }
 
-.btn-reg:focus {
-    border: 2px solid 167260;
+.btn-reg:focus,.join-btn {
+    border: 2px solid #FDB915;
 }
+
+.btn-toHome {
+    padding: 10px;
+    border: 0em;
+}
+
+.btn-toSign {
+    padding: 10px;
+    border: 0em;
+}
+
+
 
 
 /*********
@@ -130,6 +142,24 @@ a:hover {
     background: #1ABC9C;
     color: #ffffff;
 }
+.form-input:focus {
+    border: 1.5px solid #FDB915;
+}
+
+.form-input {
+    outline: #FDB915;
+}
+
+.btn-toHome {
+    background: #FDB915;
+    color: #ffffff;
+}
+
+.btn-toSign {
+    background: #1ABC9C;;
+    color: #ffffff;
+}
+
 /*********
 Typography
 ***********/
