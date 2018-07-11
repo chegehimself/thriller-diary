@@ -34,13 +34,13 @@ li {
 }
 
 #join-btn {
-    /* border: 0em; */
+    border: 0em;
     padding: 1.3em;
     font-size: 0.7em;
 }
-#join-btn:hover {
+/* #join-btn:hover {
     background: #FDB915;
-}
+} */
 
 .section_footer {
     position: relative;
