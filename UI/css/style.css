@@ -49,9 +49,9 @@ li {
 }
 
 /* getting rid of all outlines*/
-* {
+/* * {
     outline: none;
-}
+} */
 
 /* form */
 .group-form {
@@ -61,11 +61,24 @@ li {
 .form-input {
     padding: 1em;
     width: 50%;
+    border: 1px solid #FDB915;
 }
 
 .sign {
     background: url(../imgs/naturalwhite.png);
 }
+
+.btn-reg { 
+    padding: 1em;
+    background: #1ABC9C;
+    border: 0em;
+}
+
+.btn-reg:focus {
+    border: 2px solid 167260;
+}
+
+
 /*********
 Color
 ***********/
@@ -114,9 +127,8 @@ a:hover {
     color: #C8C9CA;
 }
 .btn-reg { 
-    padding: 1em;
     background: #1ABC9C;
-    border: 0em;
+    color: #ffffff;
 }
 /*********
 Typography
@@ -135,6 +147,10 @@ h2 {
 
 #marketing {
     font-size: 1.3em;
+}
+
+.btn-reg {
+    font-size: .9em;
 }
 
 
