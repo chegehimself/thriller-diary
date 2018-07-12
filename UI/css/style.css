@@ -11,6 +11,7 @@ body {
     background: url(../imgs/bg3.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background 2s ease;
 }
 
 ul {
@@ -117,6 +118,15 @@ button {
     border-radius: 2%;
 }
 
+#welcome {
+    background: #463f49;
+    margin-top: -5px;
+    padding: .2em;
+}
+
+.dashtop {
+    padding: 1.2em 0;
+}
 /*********
 Color
 ***********/
@@ -182,7 +192,7 @@ a:hover {
 }
 
 .btn-toSign {
-    background: #1ABC9C;;
+    background: #1ABC9C;
     color: #ffffff;
 }
 .btn-toHome:hover {
@@ -230,6 +240,13 @@ td {
 }
 .delete a:hover {
     color: red;
+}
+
+.name {
+    color: #FDB915;
+}
+.dashtop {
+    background-color:#332E35;
 }
 /*********
 Typography
