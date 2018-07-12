@@ -101,6 +101,7 @@ th, td {
 
 table {
     border-spacing: 0px;
+    overflow-x:auto;
 }
 
 #table {
@@ -110,6 +111,10 @@ table {
 
 .action {
     text-align: center;
+}
+
+button {
+    border-radius: 2%;
 }
 
 /*********
