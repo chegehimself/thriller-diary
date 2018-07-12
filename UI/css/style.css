@@ -135,6 +135,16 @@ button {
     text-align: left;
 }
 
+.reminder {
+    padding: 1em;
+    width: 40%;
+    border: .5px solid #FDB915;
+    text-align: center;
+}
+.btn-space {
+    margin-top: 10px;
+}
+
 /*********
 Color
 ***********/
@@ -186,11 +196,11 @@ a:hover {
     background: #1ABC9C;
     color: #ffffff;
 }
-.form-input:focus {
+.reminder:focus,.form-input:focus {
     border: 1.5px solid #FDB915;
 }
 
-.form-input {
+.reminder,.form-input {
     outline: #FDB915;
 }
 

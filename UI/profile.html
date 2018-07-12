@@ -26,8 +26,9 @@
          <h1 id="title-header">Thriller Diary</h1>
          <nav>
          <ul>
-             <a href="modify.html"><li><button class="btn-toHome">Add</button></li></a>
-             <a href="entries.html"><li><button class="btn-toSign">Go To Dashboard</button></li></a>
+             <a href="modify.html"><li><button class="btn-toHome">Add Entries</button></li></a>
+             <a href="dashboard.html"><li><button class="btn-toSign">Go To Dashboard</button></li></a>
+             <a href=""><li><button class="btn-toSign">Log Out</button></li></a>
          </ul>
          </nav>
      </header>
@@ -37,6 +38,28 @@
              <div>
                  <p>Profile</p>
                  <p>Set a reminder here!</p>
+                 <div class="group-form">
+                    <form action="">
+                            <input class="reminder" id="reminder" type="datetime-local" name="reminder" value="2018-07-15T08:30">
+                            <div class="btn-space">
+                                   <button class="btn-toSign" type="submit">Submit</button>
+                            </div>
+                    </form>
+
+                    <h4>Change Password</h4>
+                    <form action="">
+                        <div class="btn-space">
+                            <input class="reminder" id="old-password" type="password" name="old-password" placeholder="Old password" required>
+                        </div>
+                        <div class="btn-space">
+                            <input class="reminder" id="new-password" type="password" name="password" placeholder="New Password" required>
+                        </div>
+                            <div class="btn-space">
+                                   <button class="btn-toSign" type="submit">Reset</button>
+                            </div>
+                    </form>
+
+                 </div>
              </div>
          </section>
      </main>
