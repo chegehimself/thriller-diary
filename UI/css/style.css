@@ -299,5 +299,8 @@ h2 {
         max-width: 680px;
         width: 100%;
     }
+    ul {
+        display: inline-flex;
+    }
 }
 
