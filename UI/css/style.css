@@ -267,6 +267,18 @@ td {
     background-color:#332E35;
 }
 
+.num {
+    background: white;
+    border: 4px solid #fdb915 !important;
+    border-radius: 60%;
+    font-size: 2.0em;
+    padding: 5px 14.5px 1px 16px;
+    margin-left: 5px;
+    color: black !important;
+  }
+  .num:hover {
+      color: #31B0D5 !important;
+  }
 /*********
 Typography
 ***********/
