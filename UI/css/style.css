@@ -302,5 +302,9 @@ h2 {
     ul {
         display: inline-flex;
     }
+
+    .group-form {
+        margin-top: 20px;
+    }
 }
 
