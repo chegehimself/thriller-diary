@@ -100,12 +100,14 @@ th, td {
     text-align: left;
 }
 
-table {
-    border-spacing: 0px;
-    overflow-x:auto;
+#table {
+    overflow-x: hidden;
 }
 
-#table {
+table {
+    border-spacing: 0px;
+    /* border-collapse: collapse;  */
+    /* overflow-x:auto; */
     width: 100%; 
     /* background-color: #F2F4F4; */
 }
@@ -284,4 +286,18 @@ h2 {
         background-repeat: no-repeat !important;
         background-size: cover !important;
     }
+
+    th,td {
+        width: auto;
+        padding: 2px;
+    }
+    .tdata {
+        font-size: .7em;
+    }
+    .wrap-content {
+        margin: 0 auto;
+        max-width: 680px;
+        width: 100%;
+    }
 }
+
