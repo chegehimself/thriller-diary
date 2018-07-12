@@ -38,6 +38,9 @@ li {
     padding: 1.3em;
     font-size: 0.7em;
 }
+/* #join-btn:hover {
+    background: #FDB915;
+} */
 
 .section_footer {
     position: relative;
