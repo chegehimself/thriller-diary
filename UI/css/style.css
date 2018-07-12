@@ -91,15 +91,12 @@ li {
 /* end of form */
 
 table, th, td {
-    border: 1px solid #FDB915;;
+    border: 0;
 }
 
 th, td {
     padding: 7px;
     text-align: left;
-}
-th {
-    background: #F1F2F3;
 }
 
 table {
@@ -111,6 +108,9 @@ table {
     /* background-color: #F2F4F4; */
 }
 
+.action {
+    text-align: center;
+}
 
 /*********
 Color
@@ -187,7 +187,14 @@ a:hover {
     background: #149b80;
 }
 
-.view{
+th {
+    background: rgb(232, 234, 236);
+}
+
+td {
+    background: #f7f8f9;
+}
+/* .view{
     background: #31B0D5;
 }
 
@@ -197,15 +204,27 @@ a:hover {
 
 .delete {
     background: #C9302C;
+} */
+.view a {
+    color: #31B0D5;
 }
+
+.edit a {
+    color: #5CB85C;
+}
+
+.delete a {
+    color: #C9302C;
+} 
+
 .view a:hover {
-    color: white !important;
+    color: blue;
 }
 .edit a:hover {
-    color: white !important;
+    color: green;
 }
 .delete a:hover {
-    color: white !important;
+    color: red;
 }
 /*********
 Typography
