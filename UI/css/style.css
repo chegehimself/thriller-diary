@@ -95,11 +95,11 @@ table, th, td {
 }
 
 th, td {
-    padding: 10px;
+    padding: 7px;
     text-align: left;
 }
 th {
-    background: #2579A9;
+    background: #F1F2F3;
 }
 
 table {
@@ -187,6 +187,26 @@ a:hover {
     background: #149b80;
 }
 
+.view{
+    background: #31B0D5;
+}
+
+.edit {
+    background: #5CB85C;
+}
+
+.delete {
+    background: #C9302C;
+}
+.view a:hover {
+    color: white !important;
+}
+.edit a:hover {
+    color: white !important;
+}
+.delete a:hover {
+    color: white !important;
+}
 /*********
 Typography
 ***********/
