@@ -90,6 +90,27 @@ li {
 
 /* end of form */
 
+table, th, td {
+    border: 1px solid #FDB915;;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #2579A9;
+}
+
+table {
+    border-spacing: 0px;
+}
+
+#table {
+    width: 100%; 
+    /* background-color: #F2F4F4; */
+}
+
 
 /*********
 Color
