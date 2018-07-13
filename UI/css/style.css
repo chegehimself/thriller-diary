@@ -90,6 +90,32 @@ li {
 
 /* end of form */
 
+table, th, td {
+    border: 0;
+}
+
+th, td {
+    padding: 7px;
+    text-align: left;
+}
+
+table {
+    border-spacing: 0px;
+    overflow-x:auto;
+}
+
+#table {
+    width: 100%; 
+    /* background-color: #F2F4F4; */
+}
+
+.action {
+    text-align: center;
+}
+
+button {
+    border-radius: 2%;
+}
 
 /*********
 Color
@@ -166,6 +192,45 @@ a:hover {
     background: #149b80;
 }
 
+th {
+    background: rgb(232, 234, 236);
+}
+
+td {
+    background: #f7f8f9;
+}
+/* .view{
+    background: #31B0D5;
+}
+
+.edit {
+    background: #5CB85C;
+}
+
+.delete {
+    background: #C9302C;
+} */
+.view a {
+    color: #31B0D5;
+}
+
+.edit a {
+    color: #5CB85C;
+}
+
+.delete a {
+    color: #C9302C;
+} 
+
+.view a:hover {
+    color: blue;
+}
+.edit a:hover {
+    color: green;
+}
+.delete a:hover {
+    color: red;
+}
 /*********
 Typography
 ***********/
