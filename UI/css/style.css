@@ -129,6 +129,12 @@ button {
 .dashtop {
     padding: 1.2em 0;
 }
+
+#content p {
+    font-size: 1em;
+    text-align: left;
+}
+
 /*********
 Color
 ***********/
@@ -273,6 +279,9 @@ h2 {
     font-size: .9em;
 }
 
+.date {
+    font-size: .6em;
+}
 
 /******
  media 
