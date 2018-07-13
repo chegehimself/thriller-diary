@@ -11,6 +11,7 @@ body {
     background: url(../imgs/bg3.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background 2s ease;
 }
 
 ul {
@@ -99,12 +100,14 @@ th, td {
     text-align: left;
 }
 
-table {
-    border-spacing: 0px;
-    overflow-x:auto;
+#table {
+    overflow-x: hidden;
 }
 
-#table {
+table {
+    border-spacing: 0px;
+    /* border-collapse: collapse;  */
+    /* overflow-x:auto; */
     width: 100%; 
     /* background-color: #F2F4F4; */
 }
@@ -117,6 +120,15 @@ button {
     border-radius: 2%;
 }
 
+#welcome {
+    background: #463f49;
+    margin-top: -5px;
+    padding: .2em;
+}
+
+.dashtop {
+    padding: 1.2em 0;
+}
 /*********
 Color
 ***********/
@@ -182,7 +194,7 @@ a:hover {
 }
 
 .btn-toSign {
-    background: #1ABC9C;;
+    background: #1ABC9C;
     color: #ffffff;
 }
 .btn-toHome:hover {
@@ -231,6 +243,13 @@ td {
 .delete a:hover {
     color: red;
 }
+
+.name {
+    color: #FDB915;
+}
+.dashtop {
+    background-color:#332E35;
+}
 /*********
 Typography
 ***********/
@@ -267,4 +286,21 @@ h2 {
         background-repeat: no-repeat !important;
         background-size: cover !important;
     }
+
+    th,td {
+        width: auto;
+        padding: 2px;
+    }
+    .tdata {
+        font-size: .7em;
+    }
+    .wrap-content {
+        margin: 0 auto;
+        max-width: 680px;
+        width: 100%;
+    }
+    ul {
+        display: inline-flex;
+    }
 }
+
