@@ -20,7 +20,7 @@ ul {
 
 li {
 	display: inline;
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 .section_top {
@@ -38,9 +38,9 @@ li {
     padding: 1.3em;
     font-size: 0.7em;
 }
-/* #join-btn:hover {
-    background: #FDB915;
-} */
+#join-btn:hover {
+    background: #149b80;
+}
 
 .section_footer {
     position: relative;
@@ -49,9 +49,47 @@ li {
 }
 
 /* getting rid of all outlines*/
-* {
+/* * {
     outline: none;
+} */
+
+/* form */
+.group-form {
+    margin-top: 50px;
 }
+
+.form-input {
+    padding: 1em;
+    width: 80%;
+    border: 1px solid #FDB915;
+}
+
+.sign {
+    background: url(../imgs/naturalwhite.png);
+}
+
+.btn-reg { 
+    padding: 1em;
+    background: #1ABC9C;
+    border: 0em;
+}
+
+.btn-reg:focus,.join-btn {
+    border: 2px solid #FDB915;
+}
+
+.btn-toHome {
+    padding: 10px;
+    border: 0em;
+}
+
+.btn-toSign {
+    padding: 10px;
+    border: 0em;
+}
+
+/* end of form */
+
 
 /*********
 Color
@@ -98,8 +136,36 @@ a:hover {
 }
 
 .section_footer {
-    color: #C8C9CA;
+    color: rgb(30, 166, 175);
 }
+.btn-reg { 
+    background: #1ABC9C;
+    color: #ffffff;
+}
+.form-input:focus {
+    border: 1.5px solid #FDB915;
+}
+
+.form-input {
+    outline: #FDB915;
+}
+
+.btn-toHome {
+    background: #FDB915;
+    color: #ffffff;
+}
+
+.btn-toSign {
+    background: #1ABC9C;;
+    color: #ffffff;
+}
+.btn-toHome:hover {
+    background: #e2a109;
+}
+.btn-toSign:hover {
+    background: #149b80;
+}
+
 /*********
 Typography
 ***********/
@@ -117,6 +183,10 @@ h2 {
 
 #marketing {
     font-size: 1.3em;
+}
+
+.btn-reg {
+    font-size: .9em;
 }
 
 
