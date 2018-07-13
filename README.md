@@ -3,7 +3,7 @@
 This is online journal where users can pen down their thoughts and feelings.
 
 ## folder structure
-
+```
 ~/thriller-dairy
   |__ /UI   
       |-- content.html
@@ -17,6 +17,7 @@ This is online journal where users can pen down their thoughts and feelings.
   |-- .gitignore
   |--index.html
   |--Readme.md
+```
 
 ## Screanshots
 
