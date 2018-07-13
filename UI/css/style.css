@@ -11,6 +11,7 @@ body {
     background: url(../imgs/bg3.jpg) center center fixed;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: background 2s ease;
 }
 
 ul {
@@ -20,7 +21,7 @@ ul {
 
 li {
 	display: inline;
-	padding: 0 2em;
+	padding: 0 1em;
 }
 
 .section_top {
@@ -38,6 +39,9 @@ li {
     padding: 1.3em;
     font-size: 0.7em;
 }
+#join-btn:hover {
+    background: #149b80;
+}
 
 .section_footer {
     position: relative;
@@ -46,9 +50,101 @@ li {
 }
 
 /* getting rid of all outlines*/
-* {
+/* * {
     outline: none;
+} */
+
+/* form */
+.group-form {
+    margin-top: 50px;
 }
+
+.form-input {
+    padding: 1em;
+    width: 80%;
+    border: 1px solid #FDB915;
+}
+
+.sign {
+    background: url(../imgs/naturalwhite.png);
+}
+
+.btn-reg { 
+    padding: 1em;
+    background: #1ABC9C;
+    border: 0em;
+}
+
+.btn-reg:focus,.join-btn {
+    border: 2px solid #FDB915;
+}
+
+.btn-toHome {
+    padding: 10px;
+    border: 0em;
+}
+
+.btn-toSign {
+    padding: 10px;
+    border: 0em;
+}
+
+/* end of form */
+
+table, th, td {
+    border: 0;
+}
+
+th, td {
+    padding: 7px;
+    text-align: left;
+}
+
+#table {
+    overflow-x: hidden;
+}
+
+table {
+    border-spacing: 0px;
+    /* border-collapse: collapse;  */
+    /* overflow-x:auto; */
+    width: 100%; 
+    /* background-color: #F2F4F4; */
+}
+
+.action {
+    text-align: center;
+}
+
+button {
+    border-radius: 2%;
+}
+
+#welcome {
+    background: #463f49;
+    margin-top: -5px;
+    padding: .2em;
+}
+
+.dashtop {
+    padding: 1.2em 0;
+}
+
+#content p {
+    font-size: 1em;
+    text-align: left;
+}
+
+.reminder {
+    padding: 1em;
+    width: 40%;
+    border: .5px solid #FDB915;
+    text-align: center;
+}
+.btn-space {
+    margin-top: 10px;
+}
+
 
 /*********
 Color
@@ -95,8 +191,95 @@ a:hover {
 }
 
 .section_footer {
-    color: #C8C9CA;
+    color: rgb(30, 166, 175);
 }
+.btn-reg { 
+    background: #1ABC9C;
+    color: #ffffff;
+}
+.reminder:focus,.form-input:focus {
+    border: 1.5px solid #FDB915;
+}
+
+.reminder,.form-input {
+    outline: #FDB915;
+}
+
+.btn-toHome {
+    background: #FDB915;
+    color: #ffffff;
+}
+
+.btn-toSign {
+    background: #1ABC9C;
+    color: #ffffff;
+}
+.btn-toHome:hover {
+    background: #e2a109;
+}
+.btn-toSign:hover {
+    background: #149b80;
+}
+
+th {
+    background: rgb(232, 234, 236);
+}
+
+td {
+    background: #f7f8f9;
+}
+/* .view{
+    background: #31B0D5;
+}
+
+.edit {
+    background: #5CB85C;
+}
+
+.delete {
+    background: #C9302C;
+} */
+.view a {
+    color: #31B0D5;
+}
+
+.edit a {
+    color: #5CB85C;
+}
+
+.delete a {
+    color: #C9302C;
+} 
+
+.view a:hover {
+    color: blue;
+}
+.edit a:hover {
+    color: green;
+}
+.delete a:hover {
+    color: red;
+}
+
+.name {
+    color: #FDB915;
+}
+.dashtop {
+    background-color:#332E35;
+}
+
+.num {
+    background: white;
+    border: 4px solid #fdb915 !important;
+    border-radius: 60%;
+    font-size: 2.0em;
+    padding: 5px 14.5px 1px 16px;
+    margin-left: 5px;
+    color: black !important;
+  }
+  .num:hover {
+      color: #31B0D5 !important;
+  }
 /*********
 Typography
 ***********/
@@ -116,6 +299,13 @@ h2 {
     font-size: 1.3em;
 }
 
+.btn-reg {
+    font-size: .9em;
+}
+
+.date {
+    font-size: .6em;
+}
 
 /******
  media 
@@ -129,4 +319,25 @@ h2 {
         background-repeat: no-repeat !important;
         background-size: cover !important;
     }
+
+    th,td {
+        width: auto;
+        padding: 2px;
+    }
+    .tdata {
+        font-size: .7em;
+    }
+    .wrap-content {
+        margin: 0 auto;
+        max-width: 680px;
+        width: 100%;
+    }
+    ul {
+        display: inline-flex;
+    }
+
+    .group-form {
+        margin-top: 20px;
+    }
 }
+
