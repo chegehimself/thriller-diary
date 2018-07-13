@@ -2,6 +2,8 @@
 
 This is online journal where users can pen down their thoughts and feelings. Access live version through this [link](https://james-chege.github.io/thriller-diary/).
 
+[__Link to pivotaltracker stories__](https://www.pivotaltracker.com/n/projects/2183778)
+
 ## folder structure
 ```
 ~/thriller-dairy
