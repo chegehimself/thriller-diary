@@ -1,6 +1,6 @@
 # thriller-diary
 
-This is online journal where users can pen down their thoughts and feelings.
+This is online journal where users can pen down their thoughts and feelings. Access live version through this [link](https://james-chege.github.io/thriller-diary/).
 
 ## folder structure
 ```
