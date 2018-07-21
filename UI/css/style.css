@@ -5,6 +5,8 @@ General
 body {
     text-align: center;
     margin: 0;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 #homepage {
@@ -387,5 +389,10 @@ p {
         font-size: 1em;
         text-align: center;
         padding: 0em 1em;
+    }
+
+    h1.font-style-me {
+        text-align: left;
+        margin-left: 1em;
     }
 }
