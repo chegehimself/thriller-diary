@@ -151,6 +151,7 @@ button {
     transition-duration: .2s;
     transition-property: color, background;
 }
+
 /*********
 Color
 ***********/
@@ -311,9 +312,15 @@ h2 {
 .date {
     font-size: .6em;
 }
+
 h1,h2,h3,h4 {
-    font-family:Courier;
+    /* font-family:Courier; */
 }
+
+p {
+    font-size: 1em;
+}
+
 /******
  media 
 *******/
@@ -332,7 +339,7 @@ h1,h2,h3,h4 {
         padding: 2px;
     }
     .tdata {
-        font-size: .7em;
+        font-size: .9em;
     }
     .wrap-content {
         margin: 0 auto;
