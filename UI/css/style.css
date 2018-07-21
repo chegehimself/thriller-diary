@@ -403,4 +403,8 @@ p {
     #join-btn {
         font-size: 0.9em;
     }
+
+    .reminder {
+        width: 80%;
+    }
 }
