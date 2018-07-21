@@ -68,9 +68,9 @@ li {
     border: 1px solid #FDB915;
 }
 
-.sign {
-    /* background: url(../imgs/naturalwhite.png); */
-}
+/* .sign {
+    background: url(../imgs/naturalwhite.png);
+} */
 
 .btn-reg { 
     padding: 1em;
@@ -323,9 +323,9 @@ h2 {
     font-size: .6em;
 }
 
-h1,h2,h3,h4 {
-    /* font-family:Courier; */
-}
+/* h1,h2,h3,h4 {
+    font-family:Courier;
+} */
 
 p {
     font-size: 1em;
@@ -333,6 +333,10 @@ p {
 
 .font-style-me {
     font-family: 'Courier New', Courier, monospace;
+}
+
+.btn-toHome, .btn-toSign {
+    font-size: 1em;
 }
 
 /******
