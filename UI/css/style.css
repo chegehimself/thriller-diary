@@ -292,6 +292,10 @@ td {
   .num:hover {
       color: #31B0D5 !important;
   }
+
+  .home_footer {
+      background: #332E35;
+  }
 /*********
 Typography
 ***********/
@@ -394,5 +398,9 @@ p {
     h1.font-style-me {
         text-align: left;
         margin-left: 1em;
+    }
+
+    #join-btn {
+        font-size: 0.9em;
     }
 }
