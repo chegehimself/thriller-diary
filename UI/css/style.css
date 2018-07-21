@@ -321,6 +321,10 @@ p {
     font-size: 1em;
 }
 
+.font-style-me {
+    font-family: 'Courier New', Courier, monospace;
+}
+
 /******
  media 
 *******/
@@ -365,5 +369,9 @@ p {
     }
     p {
         font-size: medium;
+    }
+
+    section#modify-sec {
+        margin-bottom: 4em;
     }
 }
