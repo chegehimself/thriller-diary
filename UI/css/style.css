@@ -204,7 +204,7 @@ a:hover {
     color: #ffffff;
 }
 .reminder:focus,.form-input:focus {
-    border: 1.5px solid #FDB915;
+    border: 2px solid #FDB915;
 }
 
 .reminder,.form-input {
@@ -339,7 +339,9 @@ p {
         padding: 2px;
     }
     .tdata {
-        font-size: .9em;
+        font-size: 1em;
+        padding-top: 2em;
+        padding-right: 0;
     }
     .wrap-content {
         margin: 0 auto;
@@ -356,5 +358,12 @@ p {
 
     .section_top{
         margin-top:-25px !important;
+    }
+
+    td.tdata.dated {
+        font-size: .7em;
+    }
+    p {
+        font-size: medium;
     }
 }
