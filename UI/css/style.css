@@ -30,7 +30,7 @@ li {
 
 .wrap-content {
 	margin: 0 auto;
-	max-width: 680px;
+	max-width: 100%;
 	width: 85%;
 }
 
@@ -47,7 +47,7 @@ li {
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #134c6b;
+    background: #ffffff;
 }
 
 /* getting rid of all outlines*/
@@ -146,7 +146,11 @@ button {
     margin-top: 10px;
 }
 
+button {
 
+    transition-duration: .2s;
+    transition-property: color, background;
+}
 /*********
 Color
 ***********/
@@ -192,7 +196,7 @@ a:hover {
 }
 
 .section_footer {
-    color: rgb(30, 166, 175);
+    color: #595856;
 }
 .btn-reg { 
     background: #1ABC9C;
@@ -307,7 +311,9 @@ h2 {
 .date {
     font-size: .6em;
 }
-
+h1,h2,h3,h4 {
+    font-family:Courier;
+}
 /******
  media 
 *******/
@@ -330,7 +336,7 @@ h2 {
     }
     .wrap-content {
         margin: 0 auto;
-        max-width: 680px;
+        max-width: 100%;
         width: 100%;
     }
     ul {
@@ -340,5 +346,8 @@ h2 {
     .group-form {
         margin-top: 20px;
     }
-}
 
+    .section_top{
+        margin-top:-25px !important;
+    }
+}
