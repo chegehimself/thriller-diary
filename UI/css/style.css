@@ -152,6 +152,10 @@ button {
     transition-property: color, background;
 }
 
+main {
+    margin-bottom: 4em;
+}
+
 /*********
 Color
 ***********/
@@ -365,7 +369,7 @@ p {
     }
 
     td.tdata.dated {
-        font-size: .7em;
+        font-size: .8em;
     }
     p {
         font-size: medium;
@@ -377,5 +381,11 @@ p {
 
     .sign {
         margin-bottom: 4em;
+    }
+
+    #content p {
+        font-size: 1em;
+        text-align: center;
+        padding: 0em 1em;
     }
 }
