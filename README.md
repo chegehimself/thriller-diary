@@ -32,15 +32,15 @@ This is online journal where users can pen down their thoughts and feelings. Acc
 * content
   ![content](https://user-images.githubusercontent.com/29597869/42655058-7fee2c7c-8623-11e8-82e0-ee76af197281.png)
 * modify.html
-  ![modify](https://user-images.githubusercontent.com/29597869/42646657-30f103ce-860a-11e8-897b-b9a2bcda40ad.png)
+  ![add-entries](https://user-images.githubusercontent.com/29597869/43116687-9a5d8142-8f11-11e8-9c02-e75c1197e9f3.png)
 
 * profile.html
 ![profile](https://user-images.githubusercontent.com/29597869/42658912-5f055cfe-862f-11e8-81e5-3c92ce2a4a96.png)
 
 * sign-in.html
-  ![sign-in](https://user-images.githubusercontent.com/29597869/42612426-fac9cc74-85a3-11e8-8b5d-cce4a35ad634.png)
+  ![sign-in](https://user-images.githubusercontent.com/29597869/43116688-9abd3c86-8f11-11e8-845e-e9114ade0d67.png)
 
 * sign-up.html
-  ![signup](https://user-images.githubusercontent.com/29597869/42611394-8c96068c-859e-11e8-997e-312655e7b7b9.png)
+  ![sign-up](https://user-images.githubusercontent.com/29597869/43116690-9b0e545e-8f11-11e8-826d-c96e793fdfb2.png)
 
    
